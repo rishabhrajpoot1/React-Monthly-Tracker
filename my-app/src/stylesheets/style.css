@@ -1,0 +1,111 @@
+@import url('./reset.css');
+@import url('./flex.css');
+@import url('./global.css');
+
+/* Custom Styles */
+h1{
+    color: rgb(63,142,208);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 2rem auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    margin:0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+form input{
+    flex: 0 1 75%;
+    height: 2rem;
+    border-radius:0;
+    border: 1px solid gray;
+    outline: none;
+    border-top-left-radius:.25rem;
+    border-bottom-left-radius:.25rem;
+    padding-left: .5rem;
+    border-right: none;
+}
+
+form .btn{
+    flex: 0 1 25%;
+    height: 2.25rem;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+}
+
+
+.tracker{
+    box-shadow: rgba(50, 50, 93, 0.35) 0px 0px 10px 0px;
+    padding: 1rem;
+    border-radius: .2rem;
+    /* padding-right: .25rem; */
+    /* padding-bottom: .25rem; */
+    margin-top: 2rem;
+}
+
+.tracker .activity{
+    background-color: rgb(239,245,250);
+    border-radius: .2rem;
+    height: 11.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tracker p{
+    color: rgb(74,74,74);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.tracker .consistancy .dates{
+    color: rgb(113,113,113);
+    font-size: 1rem;
+    border: 1px solid rgb(219,219,219);
+    width: 4.4rem;
+    height: 2.2rem;
+    border-radius: .25rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    /* box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px; */
+}
+
+.tracker .consistancy .dates:hover{
+    cursor: pointer;
+}
+
+.delete{
+    color: white;
+    background-color: red;
+    font-size: 1rem;
+    font-weight: 800;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete:hover{
+    background-color: black;
+    font-size: 1rem;
+    color: red;
+    cursor: pointer;
+}
+
+.tracker .consistancy .selectedOne{
+   background-color:  rgb(0,209,178);
+   color: white;
+   box-shadow: rgba(0, 0, 0, 0.6) 1.95px 1.95px 2.6px;
+}
+
+.selectedOne:hover{
+    border: 1px solid blue;
+}
