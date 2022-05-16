@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Monthly-Tracker/static/css/main.6c0a9da7.css",
+    "main.js": "/React-Monthly-Tracker/static/js/main.0ec2f4fa.js",
+    "index.html": "/React-Monthly-Tracker/index.html",
+    "main.6c0a9da7.css.map": "/React-Monthly-Tracker/static/css/main.6c0a9da7.css.map",
+    "main.0ec2f4fa.js.map": "/React-Monthly-Tracker/static/js/main.0ec2f4fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c0a9da7.css",
+    "static/js/main.0ec2f4fa.js"
+  ]
+}
